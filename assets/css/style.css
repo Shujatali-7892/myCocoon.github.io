@@ -11828,6 +11828,7 @@ background-color: transparent;
 width: 200px;
 height: 150px; 
 margin-right: 10px;
+display: none !important;
 }
     }
 @media screen and (max-width: 800px) {
@@ -11836,6 +11837,7 @@ margin-right: 10px;
         height: 150px;
         text-align: center;
          justify-content: center;
+         display: none !important;
         }
     .downloadBtn {
         padding: 20px 28px;
@@ -12163,4 +12165,248 @@ body.contact-page .slider-sl {
     text-align: center;
     width: 100%;
     z-index: 4;
+}
+.admissions-page .secondLvlCss p {
+    color: #766e63;
+    display: block;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.admissions-page  .downloadBtn.downloadBtn-large:before {
+    background-image: url('../img/bg-shaps/button-large-2-lines.svg');
+}
+.admissions-page  .downloadBtn:before {
+    background-image: url('../img/bg-shaps/alert-bg.svg');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+    content: "";
+    height: 100%;
+    left: 0;
+    min-height: 70px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.admissions-page  .downloadBtn span {
+    color: #fff;
+    display: inline-block;
+    font-family: Metropolis Regular, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: .12em;
+    line-height: 25px;
+    position: relative;
+    text-transform: uppercase;
+    z-index: 3;
+}
+.admissions-page  html.no-touch .downloadBtn:hover span {
+    color: #000;
+}
+.admissions-functionality-wrapper {
+    background: #c41e3a;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    margin: 40px 0;
+    padding: 40px;
+    position: relative;
+    z-index: 2;
+}
+.admissions-functionality-wrapper .adm-form-one {
+    position: relative;
+    z-index: 1;
+}
+.admissions-functionality-wrapper .adm-form-one .admissions-func-title {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+.admissions-functionality-wrapper .adm-form-one .admissions-func-details {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    margin-bottom: 15px;
+}
+.admissions-functionality-wrapper .adm-form-one .admissions-func-intro {
+    border-top: 1px solid #f7b61e;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    margin-bottom: 15px;
+    padding-top: 20px;
+}
+.admissions-functionality-wrapper .adm-form-one .admissions-input-area .adm-input-btn-wrapper {
+    float: left;
+}
+.admissions-functionality-wrapper .adm-form-one .admissions-input-area .adm-input {
+    background: #fff;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    color: #c41e3a;
+    cursor: pointer;
+    float: left;
+    font-size: 15px;
+    font-weight: 700;
+    height: 50px;
+    line-height: 48px;
+    margin-right: 18px;
+    padding-left: 18px;
+    position: relative;
+    text-transform: uppercase;
+    -o-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    width: 116px;
+    z-index: 1;
+}
+.admissions-functionality-wrapper .adm-form-one .admissions-input-area .adm-input:after, .admissions-functionality-wrapper .adm-form-one .admissions-input-area .adm-input:before {
+    margin-top: -7px;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    -o-transition: opacity .3s ease;
+    -moz-transition: opacity .3s ease;
+    transition: opacity .3s ease;
+    -webkit-transition: opacity .3s ease;
+    z-index: 2;
+}
+.admissions-functionality-wrapper .adm-form-one .admissions-input-area .adm-input:before {
+    opacity: 1;
+}
+ .inquery-page .page-title-container:before {
+    background-image: url('../img/bg-shaps/mask-top-2000.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    background-size: cover;
+    bottom: -1px;
+    content: "";
+    height: 200px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+} 
+.VisitUs-page .page-title-container:before {
+    background-image: url('../img/bg-shaps/mask-top-2000.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    background-size: cover;
+    bottom: -1px;
+    content: "";
+    height: 200px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+} 
+.VisitUs-page .sl-promos-sidebar:before {
+    /* background: url(/Images/assets/sidebar-ribben.svg); */
+    background: url('../img/bg-shaps/sidebar-ribben.svg');
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    background-size: cover;
+    bottom: -140px;
+    content: "";
+    height: 705px;
+    left: -25px;
+    position: absolute;
+    width: 225px;
+}
+ .sl-promos-sidebar .sl-promos-sidebar-inner:before {
+    /* background: url(/Images/assets/sidebar-ribben.svg); */
+    /* background: url('../img/bg-shaps/sidebar-ribben.svg') !important; */
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    background-size: cover;
+    bottom: -140px;
+    content: "";
+    height: 705px;
+    left: -25px;
+    position: absolute;
+    width: 225px;
+}
+.event-page  .sl-promos-sidebar .sl-promos-sidebar-inner:before {
+    /* background: url(/Images/assets/sidebar-ribben.svg); */
+      background: url('../img/bg-shaps/sidebar-ribben.svg') !important;  
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    background-size: cover;
+    bottom: -140px;
+    content: "";
+    height: 705px;
+    left: -25px;
+    position: absolute;
+    width: 225px;
+}
+.VisitUs-page .card, .inquery-page .card {
+    box-shadow: 0px 0px 30px 8px #8080801c;
+    border: none !important;
+}
+
+.VisitUs-page .slick-slide {
+   
+    float: none;
+    height: 100%;
+    min-height: 1px;
+}
+  .g-button {
+    background: none;
+    border: none;
+    padding: 32px 40px;
+    position: relative;
+}
+.my-btn {
+    background-image: url(../img/bg-shaps/alert-bg.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    box-shadow: 0px 0px 10px 0px gray;
+    /* width: 100%; */
+    z-index: 1;
+    padding: 15px 20px !important;
+    color: white !important;
+}
+.my-btn:hover {
+    box-shadow: 0px 0px 10px 0px gray inset;
+}
+.gallery-page .hero-area {
+    background-image: url(../img/bg-shaps/footer-bg.png);
+    background-attachment: scroll;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: #c41e3a;
+    background-size: cover;
+}
+.gallery-page  .nav-link {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: var(--bs-nav-link-color);
+    text-decoration: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+    text-align: start;
+}
+.gallery-page .hero-area {
+    display: block;
+    height: 50vh;
+    min-height: 0;
+    position: relative;
+    width: 100%;
+    z-index: 3;
 }
