@@ -12130,3 +12130,37 @@ margin-right: 10px;
     -webkit-filter: contrast(30%) brightness(230%);
     filter: contrast(30%) brightness(230%);
 }
+.contact-page .page-title-container:before {
+    background-image: url('../img/bg-shaps/mask-top-2000.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    background-size: cover;
+    bottom: -1px;
+    content: "";
+    height: 200px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+body.contact-page .slider-sl {
+    min-height: 50vh;
+}
+.contact-page .slider-sl {
+    -webkit-box-align: baseline;
+    -moz-box-align: baseline;
+    -ms-flex-align: baseline;
+    -webkit-align-items: baseline;
+    align-items: baseline;
+    background: #c41e3a;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 90vh;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    z-index: 4;
+}
