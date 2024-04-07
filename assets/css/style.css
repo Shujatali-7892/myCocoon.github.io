@@ -11664,7 +11664,12 @@ background-color: transparent;
     text-transform: uppercase;
 }
 
-
+.Management-page .slick-slide {
+  
+    float: none;
+    height: auto;
+    min-height: auto;
+}
 
     /* .................... admissions-page start */
     .admissions-page  .accordion-button:not(.collapsed),
@@ -11770,8 +11775,49 @@ background-color: transparent;
         box-shadow: 0px 0px 10px 1px #80808030;
     }
 
-
-
+    .Management-page .owl-carousel .owl-stage-outer {
+        position: relative;
+        overflow: visible;
+        -webkit-transform: translate3d(0, 0, 0);
+        background-color: white;
+    }
+    .staff-carousel .sc-header h3 {
+        color: #fc0;
+        font-size: 40px;
+        margin: 0;
+    }
+    
+    .Management-page  .owl-prev span,  
+    .Management-page  .owl-next  span{
+        background-image: url(../img/bg-shaps/close.webp) !important;
+        background-position: bottom !important;
+        background-repeat: no-repeat !important;
+        -moz-background-size: cover;
+        background-size: cover;
+        height: 100%;
+        width: 50%;
+        padding: 0 30px !important;
+        font-size: 4rem !important;
+        pointer-events: none;
+        -webkit-transition: .3s ease-in-out;
+        -o-transition: .3s ease-in-out;
+        -moz-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+ 
+    .Management-page .owl-theme .owl-nav [class*=owl-]:hover {
+        background: #ffffff;
+        color: #FFF;
+        text-decoration: none;
+    }
+    .Management-page .owl-theme .owl-dots {
+       display: none !important;
+    }
+    .modal-body   .mediaPopup__singleImage.isPortrait img{
+        width: 50%;
+    }
+    
+    
 @media screen and (max-width: 800px) {
     .downloadBtn {
         padding: 20px 28px;
