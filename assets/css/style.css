@@ -6447,6 +6447,13 @@ html.no-touch .hp-area .section_button.btn-g a:hover span {
   -o-transform: translateY(-75%) translateX(90%);
   transform: translateY(-75%) translateX(80%);
 }
+.header-links li a {
+  font-size: 18px !important;
+  letter-spacing: 0.1em;
+  line-height: 25px;
+  padding: 22px 0;
+  text-transform: uppercase;
+}
 }
 .hp-area .section_values .section_trail .section_values-ribben {
   background-image: url(/Images/assets/yellow-ribbon.png);
