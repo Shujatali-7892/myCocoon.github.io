@@ -6419,6 +6419,35 @@ html.no-touch .hp-area .section_button.btn-g a:hover span {
     display: none;
   }
 }
+@media screen and (max-width: 768px) {
+  .firs-svi .section_values-item.card {
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  border-radius: 18px;
+  -webkit-box-shadow: -10px 13px 16px rgba(0, 0, 0, 0.16);
+  -moz-box-shadow: -10px 13px 16px rgba(0, 0, 0, 0.16);
+  box-shadow: -10px 13px 16px rgba(0, 0, 0, 0.16);
+  height: 154px;
+  min-width: 145px !important;
+  overflow: hidden;
+  position: relative;
+  width: 150px !important;
+}
+.hp-area   .firs-svi .section_values-item:nth-child(2) {
+  -webkit-transform: translateY(-75%) translateX(90%);
+  -moz-transform: translateY(-75%) translateX(90%);
+  -ms-transform: translateY(-75%) translateX(90%);
+  -o-transform: translateY(-75%) translateX(90%);
+  transform: translateY(-75%) translateX(80%);
+}
+.hp-area   .firs-svi .section_values-item:nth-child(4) {
+  -webkit-transform: translateY(-75%) translateX(90%);
+  -moz-transform: translateY(-75%) translateX(90%);
+  -ms-transform: translateY(-75%) translateX(90%);
+  -o-transform: translateY(-75%) translateX(90%);
+  transform: translateY(-75%) translateX(80%);
+}
+}
 .hp-area .section_values .section_trail .section_values-ribben {
   background-image: url(/Images/assets/yellow-ribbon.png);
   background-position: 0;
