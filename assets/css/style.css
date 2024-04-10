@@ -6420,7 +6420,98 @@ html.no-touch .hp-area .section_button.btn-g a:hover span {
     display: none;
   }
 }
+
 @media screen and (max-width: 768px) {
+  .my-gallery img{
+    margin-bottom: 10px !important;
+  }
+  .daycare-page .hp-area .section_values .section_trail:before { 
+    left: -70px; 
+}
+  .hp-area .section_values .section_trail:before { 
+    height: 750px; 
+}
+  .daycare-page .hp-area .section_values-item:first-child {
+    -webkit-transform: translateY(-57%) translateX(-50%);
+    -moz-transform: translateY(-57%) translateX(-50%);
+    -ms-transform: translateY(-57%) translateX(-50%);
+    -o-transform: translateY(-57%) translateX(-50%);
+    transform: translateY(-57%) translateX(-50%);
+}
+.daycare-page .hp-area .section_values-item:nth-child(4) {
+  -webkit-transform: translateY(-190%) translateX(30%) !important;
+  -moz-transform: translateY(-190%) translateX(30%) !important;
+  -ms-transform: translateY(-190%) translateX(30%) !important;
+  -o-transform: translateY(-190%) translateX(30%) !important;
+  transform: translateY(-190%) translateX(30%) !important;
+}
+
+.daycare-page .hp-area .section_values-item:nth-child(2) {
+  -webkit-transform: translateY(-103%) translateX(30%) !important;
+  -moz-transform: translateY(-103%) translateX(30%) !important;
+  -ms-transform: translateY(-103%) translateX(30%) !important;
+  -o-transform: translateY(-103%) translateX(30%) !important;
+  transform: translateY(-103%) translateX(30%) !important;
+}
+.daycare-page .hp-area .section_values-item:nth-child(3) {
+  -webkit-transform: translateY(-143%) translateX(-48%) !important;
+  -moz-transform: translateY(-143%) translateX(-48%) !important;
+  -ms-transform: translateY(-143%) translateX(-48%) !important;
+  -o-transform: translateY(-143%) translateX(-48%) !important;
+  transform: translateY(-143%) translateX(-48%) !important;
+}
+.daycare-page .hp-area .section_values-item:nth-child(5) {
+  -webkit-transform: translateY(-228%) translateX(-44%) !important;
+  -moz-transform: translateY(-228%) translateX(-44%) !important;
+  -ms-transform: translateY(-228%) translateX(-44%) !important;
+  -o-transform: translateY(-228%) translateX(-44%) !important;
+  transform: translateY(-228%) translateX(-44%) !important;
+}
+.daycare-page .hp-area .section_values-item:nth-child(6) {
+  -webkit-transform: translateY(-266%) translateX(30%) !important;
+  -moz-transform: translateY(-266%) translateX(30%) !important;
+  -ms-transform: translateY(-266%) translateX(30%) !important;
+  -o-transform: translateY(-266%) translateX(30%) !important;
+  transform: translateY(-266%) translateX(30%) !important;
+}
+  .daycare-page .section_values-item.card {
+    box-shadow: unset !important;
+  }
+  .daycare-page .hp-area.daycare-one  .section_title h2 span { 
+    left: 43%;
+    font-size: 60px;
+    line-height: 105px;
+    text-align: center;
+    line-height: 112px; 
+    top: -15px; 
+}
+  .daycare-page .hp-area.daycare-one  .section_values .section_title h2 {
+    left: 0px;
+    top: 0px;
+    text-align: center;
+}
+  
+.daycare-page .hp-area.daycare-one .section_values .section_title {
+  margin-bottom: 55px;
+}
+  .daycare-page .hero-area{
+    height: 100vh !important;
+  }
+  .daycare-page .hero-area:before {
+    background-image: url(/Images/assets/mask-top-2000.png);
+    background-image: url(../img/bg-shaps/mask-top-2000.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    background-size: cover;
+    bottom: 0;
+    content: "";
+    height: 153px;
+    background-color: #c41e3a;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
   .montessor-page .hp-area .section_title.montessori-two {
     margin-bottom: 50px;
 }
