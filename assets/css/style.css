@@ -2797,6 +2797,7 @@ html.no-touch .staff-card .staff-card-inner:hover .staff-card-content .arrow {
   position: absolute;
   width: 1px;
 }
+
 .hero-area .main-title {
   bottom: 180px;
   left: 50%;
@@ -6420,6 +6421,44 @@ html.no-touch .hp-area .section_button.btn-g a:hover span {
   }
 }
 @media screen and (max-width: 768px) {
+  .montessor-page .hp-area .section_title.montessori-two {
+    margin-bottom: 50px;
+}
+  .goDown{
+    display: none !important;
+  }
+  .montessor-page .hp-area#two {
+    height: auto;
+    padding: 0px 0;
+    width: 100%;
+}
+.montessor-page .hp-area .section_values .montessori-one.section_title {
+    margin-bottom: 65px;
+}
+.montessor-page  .hp-area .montessori-one.section_title h2 span {
+  color: #f7b61e;
+  font-family: Golden Plains, sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  left: -60px;
+  line-height: 112px;
+  position: absolute;
+  text-transform: capitalize;
+  top: 0px;
+  z-index: -1;
+}
+.montessor-page  .hp-area .section_values .montessori-one.section_title h2 {
+  left: -20px;
+  top: -9px;
+}
+  .montessor-page .hero-area {
+    display: block;
+    height: auto;
+    min-height: 550px;
+    position: relative;
+    width: 100%;
+    z-index: 3;
+}
   .firs-svi .section_values-item.card {
   -webkit-border-radius: 18px;
   -moz-border-radius: 18px;
@@ -6432,6 +6471,9 @@ html.no-touch .hp-area .section_button.btn-g a:hover span {
   overflow: hidden;
   position: relative;
   width: 150px !important;
+}
+.montessor-page .imggrallery img{
+margin-bottom: 10px;
 }
 .hp-area   .firs-svi .section_values-item:nth-child(2) {
   -webkit-transform: translateY(-75%) translateX(90%);
