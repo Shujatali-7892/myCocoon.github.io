@@ -6,6 +6,18 @@
     font-family: Metropolis Regular ;
     src: url(../fonts/metropolis.regular.otf);
   }
+  @font-face {
+    font-family: Lato;
+    /* src: url(../fonts/Lato-Regular.ttf);
+    src: url(../fonts/Lato-Light.ttf); */
+    /* src: url(../fonts/Lato-Black.ttf); */
+      /* src: url(../fonts/Lato-BlackItalic.ttf); */
+    /* src: url(../fonts/Lato-Italic.ttf); */
+    src: url(../fonts/Lato-LightItalic.ttf);  
+    /* src: url(../fonts/Lato-Thin.ttf);
+    src: url(../fonts/Lato-ThinItalic.ttf); */
+     
+  }
   /* Golden Plains,sans-serif */
   /* Metropolis Regular */
 :after,
@@ -6422,6 +6434,10 @@ html.no-touch .hp-area .section_button.btn-g a:hover span {
 }
 
 @media screen and (max-width: 768px) {
+ .Management-page .secondLvlCss h2 {
+    font-size: 30px;
+    line-height: 40px;
+}
   .Apply-page .secondLvlCss h2 {
     font-size: 15px;
     line-height: 40px;
@@ -9139,7 +9155,7 @@ html.no-touch .footer .key-links li a:hover {
 .custom-menu-info a {
   color: #fff;
   font-size: inherit;
-  font-weight: 400;
+  font-weight: 600;
   line-height: inherit;
   -webkit-transition: color 0.3s ease-out;
   -o-transition: color 0.3s ease-out;
@@ -11928,7 +11944,7 @@ html.no-touch .downloadBtn:hover span {
   height: 50vh;
 }
 .Management-page .hero-area {
-  background-image: url("../img/kingsly/header-leadership-faculty-staff.jpg");
+  background-image: url("../img/teacher-bg.jpg");
   background-attachment: scroll;
   background-position: top;
   background-repeat: no-repeat;
