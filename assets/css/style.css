@@ -6422,6 +6422,11 @@ html.no-touch .hp-area .section_button.btn-g a:hover span {
 }
 
 @media screen and (max-width: 768px) {
+  .Apply-page .secondLvlCss h2 {
+    font-size: 15px;
+    line-height: 40px;
+    font-weight: 700;
+}
   .my-gallery img{
     margin-bottom: 10px !important;
   }
