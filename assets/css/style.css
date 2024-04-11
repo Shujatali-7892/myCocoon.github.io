@@ -6434,6 +6434,23 @@ html.no-touch .hp-area .section_button.btn-g a:hover span {
 }
 
 @media screen and (max-width: 768px) {
+  .cards { 
+    height: auto !important; 
+}
+ 
+  .contact-page .secondLvlCss a:not(.downloadBtn) { 
+    font-weight: 600; 
+}
+  .contact-page  .secondLvlCss h2 {
+    font-size: 20px;
+}
+.contact-page  .secondLvlCss h1 {
+    color: #ffffff;
+    font-size: 66px;
+    line-height: 199px;
+    margin: 0;
+    text-align: center;
+}
  .Management-page .secondLvlCss h2 {
     font-size: 30px;
     line-height: 40px;
@@ -10955,7 +10972,7 @@ html.no-touch .promo-item:hover .sub i {
 .secondLvlCss a:not(.downloadBtn)[href$=".pdf"]:before,
 .secondLvlCss a:not(.downloadBtn)[href^="mailto"]:before,
 .secondLvlCss a:not(.downloadBtn)[target="_blank"]:not([href$=".pdf"]):before {
-  display: block !important;
+  display: none !important;
   font-size: 100%;
   position: absolute;
   right: 0;
@@ -12468,8 +12485,25 @@ html.no-touch .downloadBtn:hover span {
   position: absolute;
   width: 100%;
 }
+.secondLvlCss a:not(.downloadBtn)[href^="mailto"]:before {
+ display: none !important;
+}
+.contact-page iframe { 
+ box-shadow: 0px 0px 30px 1px #80808030;
+  height: 40vh;
+  margin-bottom: 30px;
+  border-radius: 15px;
+}
 body.contact-page .slider-sl {
   min-height: 50vh;
+}
+.contact-page .card {
+  box-shadow: 0px 0px 30px 1px #80808030;
+  border: none;
+}
+.contact-page .card .form-control {
+  margin-bottom: 10px;
+  box-shadow: 0px 0px 10px 1px #80808030;
 }
 .contact-page .slider-sl {
   -webkit-box-align: baseline;
@@ -12754,4 +12788,21 @@ body.contact-page .slider-sl {
   border-radius: 16px !important;
   margin-bottom: 5px;
   box-shadow: 0px 0px 40px 6px #efefeffa;
+}
+.cards {
+  box-shadow: 0px 0px 30px 1px #80808030;
+  height: 18vh;
+  margin-bottom: 10px;
+  overflow: auto;
+  padding: 5px;
+}
+.cardsmall {
+  box-shadow: 0px 0px 30px 1px #80808030;
+   
+  margin-bottom: 10px;
+  overflow: auto;
+  padding: 5px;
+}
+.contact-page .secondLvlCss p { 
+  margin-bottom: 0px !important; 
 }
