@@ -6548,11 +6548,11 @@ html.no-touch .hp-area .section_button.btn-g a:hover span {
     transform: translateY(-78%) translateX(-25%);
 }
 .hp-area  .section_values-item:nth-child(6) {
-    -webkit-transform: translateY(-73%) translateX(30%);
-    -moz-transform: translateY(-73%) translateX(30%);
-    -ms-transform: translateY(-73%) translateX(30%);
-    -o-transform: translateY(-73%) translateX(30%);
-    transform: translateY(-73%) translateX(30%);
+    -webkit-transform: translateY(-73%) translateX(30%) !important;
+    -moz-transform: translateY(-73%) translateX(30%) !important;
+    -ms-transform: translateY(-73%) translateX(30%) !important;
+    -o-transform: translateY(-73%) translateX(30%)!important;
+    transform: translateY(-73%) translateX(30%) !important;
 }
 .hp-area   .sliderfour .section_values-item:nth-child(7) {
     -webkit-transform: translateY(-70%) translateX(-25%);
