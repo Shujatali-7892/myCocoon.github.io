@@ -6476,6 +6476,9 @@ html.no-touch .hp-area .section_button.btn-g a:hover span {
 }
 
 @media screen and (max-width: 768px) {
+  .custom-menu-link .burger-text { 
+    font-size: 18px !important; 
+  }
  .inquery-page .secondLvlCss h1 {
     color: #ffffff;
     font-size: 50px;
@@ -8448,7 +8451,7 @@ html.no-touch .header-links a:hover {
 }
 .custom-menu-link .burger-text {
   color: #c41e3a;
-  font-size: 24px;
+  font-size: 20px;
   letter-spacing: 1.2px;
   line-height: 25px;
   position: relative;
