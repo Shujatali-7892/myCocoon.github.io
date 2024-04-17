@@ -12179,7 +12179,7 @@ html.no-touch .downloadBtn:hover span {
 .admissions-page .accordion-button::after {
   flex-shrink: 0;
   margin-left: auto;
-  content: "";
+  content:"";
   background-image: url("../img/bg-shaps/cllaps-up.png") !important;
   background-repeat: no-repeat;
   background-size: var(--bs-accordion-btn-icon-width);
