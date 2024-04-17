@@ -12022,7 +12022,8 @@ html.no-touch .downloadBtn:hover span {
 }
 
 .admissions-page .hero-area {
-  background-image: url("../img/admission/education-day-elements-with-copy-space.jpg");
+  background-image: url("../img/bg-shaps/journey-bg.png");
+  /* background-image: url("../img/admission/education-day-elements-with-copy-space.jpg"); */
   background-attachment: scroll;
   background-position: center;
   background-repeat: no-repeat;
@@ -12030,7 +12031,8 @@ html.no-touch .downloadBtn:hover span {
   height: 50vh;
 }
 .Apply-page .hero-area {
-  background-image: url("../img/admission/education-day-elements-with-copy-space.jpg");
+  background-image: url("../img/bg-shaps/journey-bg.png");
+  /* background-image: url("../img/admission/education-day-elements-with-copy-space.jpg"); */
   background-attachment: scroll;
   background-position: top;
   background-repeat: no-repeat;
