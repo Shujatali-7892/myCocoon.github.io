@@ -7326,6 +7326,32 @@ html.no-touch .hp-area .section_values-item:hover .icon {
   width: 200px;
   z-index: -1;
 }
+.homepage .last-spin .hp-area .section_title h2 span {
+  color: #ffffff;
+  font-family: Golden Plains, sans-serif;
+  font-size: 107px;
+  font-weight: 400;
+  left: 20px;
+  line-height: 112px;
+  position: absolute;
+  text-transform: capitalize;
+  top: -12px;
+  z-index: -1;
+}
+.homepage .hp-area .section_facilities .section_description:before {
+  background-image: url("../img/bg-shaps/lionwhite.png");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  -moz-background-size: cover;
+  background-size: cover;
+  bottom: -100px;
+  content: "";
+  height: 170px;
+  left: -50px;
+  position: absolute;
+  width: 200px;
+  z-index: -1;
+}
 @media screen and (max-width: 1023px) {
   .hp-area .section_facilities .section_description:before {
     content: none;
@@ -13185,4 +13211,9 @@ body::-webkit-scrollbar-thumb:window-inactive {
   font-size: 4rem ;
   text-transform: capitalize;
   
+}
+.last-spin{
+ background-image: url('../img/last-spinner.png');
+ background-position: bottom;
+ box-shadow: 0px 0px 5px 0px #80808052;
 }
