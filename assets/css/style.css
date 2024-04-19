@@ -7328,15 +7328,7 @@ html.no-touch .hp-area .section_values-item:hover .icon {
 }
 .homepage .last-spin .hp-area .section_title h2 span {
   color: #ffffff;
-  font-family: Golden Plains, sans-serif;
-  font-size: 107px;
-  font-weight: 400;
-  left: 20px;
-  line-height: 112px;
-  position: absolute;
-  text-transform: capitalize;
-  top: -12px;
-  z-index: -1;
+   
 }
 .homepage .hp-area .section_facilities .section_description:before {
   background-image: url("../img/bg-shaps/lionwhite.png");
@@ -12344,6 +12336,13 @@ html.no-touch .downloadBtn:hover span {
 }
 .modal-body .mediaPopup__singleImage.isPortrait img {
   width: 50%;
+}
+@media screen and (min-width: 1024px){
+.homepage .footer{
+  margin-top: -210px !important;
+  position: relative;
+  z-index: 200;
+}
 }
 @media screen and (min-width: 803px) {
   .event-img img {
