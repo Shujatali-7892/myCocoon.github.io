@@ -12341,7 +12341,7 @@ html.no-touch .downloadBtn:hover span {
 .homepage .footer{
   margin-top: -210px !important;
   position: relative;
-  z-index: 200;
+  z-index:34;
 }
 }
 @media screen and (min-width: 803px) {
