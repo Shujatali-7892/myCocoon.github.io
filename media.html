@@ -26,7 +26,32 @@
     <script src="./assets/js/owl.carousel.js"></script>
 
 
-
+    <script>
+        window.onload = function() {
+          // Check if there is a hash in the URL
+          if (window.location.hash) {
+            // Get the id of the tab from the hash
+            var tabId = window.location.hash.substring(1);
+            // Activate the button
+            document.getElementById(tabId + '-tab').classList.add('active');
+            // Activate the tab content
+            document.getElementById(tabId).classList.add('show', 'active');
+            // Remove active class from other tab panes and buttons
+            var tabPanes = document.querySelectorAll('.tab-pane');
+            var navLinks = document.querySelectorAll('.nav-link');
+            tabPanes.forEach(function(tabPane) {
+              if (tabPane.id !== tabId) {
+                tabPane.classList.remove('show', 'active');
+              }
+            });
+            navLinks.forEach(function(navLink) {
+              if (navLink.id !== tabId + '-tab') {
+                navLink.classList.remove('active');
+              }
+            });
+          }
+        };
+        </script>
 </head>
 
 <body class="gallery-page">
@@ -1070,28 +1095,7 @@
     })
 </script>
  
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        // Tab ko active karne ke liye URL se query string extract karein
-        const queryString = window.location.search;
-        const urlParams = new URLSearchParams(queryString);
-    
-        // Agar query string mein tab parameter hai
-        if (urlParams.has('tab')) {
-            // Tab parameter ki value ko extract karein
-            const tabId = urlParams.get('tab');
-    
-            // Extract ki gayi tab ID ka corresponding tab link ko select karein
-            const tabLink = document.getElementById(tabId);
-    
-            // Agar tab link mil gaya hai
-            if (tabLink) {
-                // Tab link ko active karne ke liye 'active' class add karein
-                tabLink.classList.add('active');
-            }
-        }
-    });
-    </script>
-     
+  
+ 
     
 </html>
